@@ -1,12 +1,12 @@
 {
-  "scripts": {
-    "start": "remix-serve build",
-    "build": "remix build",
-    "dev": "remix dev",
-    "typecheck": "tsc"
-  },
   "private": true,
   "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "typecheck": "tsc",
+    "start": "remix-serve build"
+  },
   "dependencies": {
     "@remix-run/react": "^1.19.2",
     "@remix-run/server-runtime": "^1.19.2",
